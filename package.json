@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Package that allows you to perform a loop where, each position waits for the solution of a promise in the previous position, returning the original list with all the answers",
   "main": "index.js",
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "object.map": "^1.0.1"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/desco-npm/promise-loop"
@@ -13,8 +18,5 @@
   ],
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "license": "ISC",
-  "dependencies": {
-    "is-array": "^1.0.1",
-    "object.map": "^1.0.1"
-  }
+  "homepage": "https://github.com/desco-npm/promise-loop"
 }
