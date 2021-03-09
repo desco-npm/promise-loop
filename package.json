@@ -1,6 +1,6 @@
 {
   "name": "@desco/promise-loop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that allows you to perform a loop where, each position waits for the solution of a promise in the previous position, returning the original list with all the answers",
   "main": "index.js",
   "dependencies": {
