@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,13 +55,13 @@ npm install --save @desco/promise-loop
 ### Node
 
 ```js
-const promiseLoop = require('@desco/promise-loop')
+const promiseLoop = require("@desco/promise-loop");
 ```
 
 ### Browse
 
 ```js
-import promiseLoop from '@desco/promise-loop'
+import promiseLoop from "@desco/promise-loop";
 ```
 
 ---
@@ -71,13 +71,13 @@ import promiseLoop from '@desco/promise-loop'
 ## 📚 How to use
 
 ```js
-const list = [ 1, 2, 3, 4, 5, 6, ]
-const obj = { a: 1, b: 2, c: 3, d: 4, e: 5, f: 6, }
+const list = [1, 2, 3, 4, 5, 6];
+const obj = { a: 1, b: 2, c: 3, d: 4, e: 5, f: 6 };
 
-const fun = (v, k) => Promise.resolve(v % 2 === 0)
+const fun = (v, k) => Promise.resolve(v % 2 === 0);
 
-promiseLoop(list, fun).then(result => console.log(result)) // [ false, true, false, true, false, true ]
-promiseLoop(obj, fun).then(result => console.log(result)) // { a: false, b: true, c: false, d: true, e: false, f: true }
+promiseLoop(list, fun).then((result) => console.log(result)); // [ false, true, false, true, false, true ]
+promiseLoop(obj, fun).then((result) => console.log(result)); // { a: false, b: true, c: false, d: true, e: false, f: true }
 ```
 
 ---
@@ -101,10 +101,10 @@ promiseLoop(obj, fun).then(result => console.log(result)) // { a: false, b: true
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
